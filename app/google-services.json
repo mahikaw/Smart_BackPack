@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36298336100",
+    "project_id": "firebase-smartbackpack"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36298336100:android:dc36dc4d45d39292",
+        "android_client_info": {
+          "package_name": "com.example.mahika.smart_backpack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36298336100-3d3n0ko2dh69ejln0f5hgd2ec938lggf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mahika.smart_backpack",
+            "certificate_hash": "e89672e4eefaa4bcf327bfe0b866d80fed03016d"
+          }
+        },
+        {
+          "client_id": "36298336100-97j1bia1lnd6263bulpr74lpdq8dt32k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTjMUSviK9UCDMKQzR2w0uDzU85VINm2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
