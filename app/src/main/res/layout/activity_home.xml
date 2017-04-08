@@ -15,15 +15,17 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CREATE LIST" />
+            android:text="CREATE LIST"
+            android:onClick="list"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SEND LOCATION" />
+            android:text="SEND LOCATION" />`
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ENABLE AUTOLOCK" />
+
 
     </LinearLayout>
 
