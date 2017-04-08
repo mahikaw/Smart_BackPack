@@ -17,6 +17,8 @@ import java.text.BreakIterator;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final int RC_SIGN_IN =2 ;
+    private static final String TAG ="xyz" ;
     private GoogleApiClient mGoogleApiClient;
     private BreakIterator mStatusTextView;
 
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         signInButton.setSize(SignInButton.SIZE_STANDARD);
         findViewById(R.id.sign_in_button).setOnClickListener((View.OnClickListener) this);
     }
-    @Override
+
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.sign_in_button:
@@ -73,5 +75,10 @@ public class MainActivity extends AppCompatActivity {
             // Signed out, show unauthenticated UI.
             updateUI(false);
         }
+    }
+
+    private void updateUI(boolean b) {
+//        if(b==true)
+//            AuthenticatedUI
     }
 }

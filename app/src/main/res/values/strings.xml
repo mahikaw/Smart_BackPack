@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Smart_backpack</string>
+    <string name="signed_in_fmt">whatever</string>
 </resources>
