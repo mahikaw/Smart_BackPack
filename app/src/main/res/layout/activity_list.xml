@@ -12,11 +12,20 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <ImageButton
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_stat_name"
-        android:layout_marginTop="400dp"
+        android:drawableLeft="@drawable/ic_stat_name"
+        android:text="ADD ITEM"
+        android:layout_marginTop="385dp"
+        android:layout_marginLeft="150dp"
+        android:onClick="item_add"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_stat_name"
+        android:text="NEW LIST"
+        android:layout_marginTop="425dp"
         android:layout_marginLeft="150dp"
         android:onClick="item_add"/>
 
