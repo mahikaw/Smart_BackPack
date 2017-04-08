@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void signIn(View view){
-        Intent intent = new Intent(this, home_activity.class);
+        Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
         // Configure sign-in to request the user's ID, email address, and basic
