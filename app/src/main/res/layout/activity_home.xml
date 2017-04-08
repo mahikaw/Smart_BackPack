@@ -20,11 +20,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SEND LOCATION" />`
+            android:text="SEND LOCATION"
+            android:onClick="location"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ENABLE AUTOLOCK" />
+            android:text="ENABLE AUTOLOCK"
+            android:onClick="autolock"/>
 
 
     </LinearLayout>

@@ -18,11 +18,11 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void location(View view){
-        Intent intent = new Intent(this, ListActivity.class);
+        Intent intent = new Intent(this, LocationActivity.class);
         startActivity(intent);
     }
     public void autolock(View view){
-        Intent intent = new Intent(this, ListActivity.class);
+        Intent intent = new Intent(this, AutolockActivity.class);
         startActivity(intent);
     }
 }
